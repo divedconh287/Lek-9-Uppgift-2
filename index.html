@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MATTE!</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-<input type="text">
+
+    <img src="img/toomuchtodo.png" alt="MATTE!">
+
+    <div id="matte">
+    <input type="text" id="tal1">
+
+    <button type="button" onclick="plus()">+</button>
+    <button type="button" onclick="minus()">-</button>
+    <button type="button" onclick="ggr()">x</button>
+    <button type="button" onclick="dela()">/</button>
+
+    <input type="text" id="tal2">
+    <input type="text" id="svar" disabled>
+</div>
+
+<div id="output"></div>
 </body>
 </html>
